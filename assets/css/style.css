@@ -8,6 +8,9 @@
     }
  
 }
+.navbar{
+    position: fixed;
+}
 
 .navbutton {
     font-family: "Montserrat", Sans-serif;
@@ -40,7 +43,7 @@
 
 .section1 {
     background-image: url(../../images/section1img.jpg);
-    height: 85vh;
+
     width: 100%;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 15% 0% 03% 0%;
