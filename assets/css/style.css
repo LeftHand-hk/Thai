@@ -1,0 +1,192 @@
+@media(min-width: 768px) {
+    .navbar-brand {
+        width: 50%;
+    }
+
+    .imagirrumullakt {
+        width: 20%;
+    }
+ 
+}
+
+.navbutton {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #7ED957;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #7ED957;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 40px 15px 40px;
+}
+
+.navbutton:hover {
+    color: #4CB838;
+    background-color: #FFFFFF;
+}
+
+.nav-link {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #000000;
+    fill: #000000;
+}
+
+
+.section1 {
+    background-image: url(../../images/section1img.jpg);
+    height: 85vh;
+    width: 100%;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 15% 0% 03% 0%;
+}
+
+.section1title {
+    color: #ffffff;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.tablewithbg {
+    background-color: #7ED957 !important;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", "sans-serif";
+    line-height: 1;
+}
+
+.tablewoitu {
+    background-color: #FFFFFF !important;
+    border: none;
+    box-shadow: none !important;
+    color: black;
+
+
+}
+
+.section6 {
+    background-image: url(../../images/bgfortable.png);
+    background-position: 44% 550px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+#superspan {
+    width: 100%;
+    background-color: #7ED957 !important;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+ul li a{
+    color: #27292B !important;
+    text-decoration: none;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dymt{
+    background-image: url(../../images/bgfortable.png);
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dymt2{
+    background-image: url(../../images/prp2.png);
+    height: 70px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width:598px){
+    .imagirrumullakt{
+        width: 30%;
+    }
+    .navbar-brand{
+        width: 40% !important;
+    }
+    .navlogo{
+        width: 100% !important;
+    }
+    .section1title{
+        font-size: 40px;
+    }
+    .section1{
+        height: fit-content;
+        background-size: 100% 100%;
+    }
+    .ple2{
+        text-align: center !important;
+    }
+    .extrac{
+        text-align: center;
+    }
+    .fullwidthmobile{
+        width: 100%;
+    }
+    .iframi{
+        width: 100% !important;
+    }
+    .crce{
+        border-bottom: 1px solid rgba(132, 132, 132, 0.15);
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        color: #6B768D !important;
+    }
+
+    .crce2{
+        padding: 20px 0px;
+    }
+    .nav-link{
+        color: #6B768D !important;
+
+    }
+    .navbar{
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbuttonmb{
+        font-family: "Montserrat", Sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #7ED957;
+        border-style: solid;
+        border-width: 3px 3px 3px 3px;
+        border-color: #7ED957;
+        border-radius: 0px 0px 0px 0px;
+        padding: 10px 30px 10px 30px;
+    }
+    .navbar-light .navbar-toggler{
+        border: none !important;
+    }
+
+
+}
+
+.ll23l{
+    position: relative;
+    bottom: -100px;
+    right: -300px;
+}
